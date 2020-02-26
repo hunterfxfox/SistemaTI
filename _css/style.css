@@ -1,1 +1,87 @@
-css principal
+// css 
+body, html, *{
+	margin:0px ;
+	padding: 0px;
+	font-family: "Tahoma, sans, Comic";
+}
+nav, nav *{
+	background-color: rgba(100,100,000,1);
+
+}
+nav {
+	z-index: 1000;
+	font-weight: 550;
+	color: white;
+	line-height: 42px;
+	height: 42px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+}
+
+nav *{
+	display: block;
+	padding: 0px;
+	
+}
+
+nav a, nav ul li{
+	display: block;
+	width: 200px;
+	color: white;
+	text-decoration: none;
+
+
+}
+
+nav a{
+	padding-left:20px;
+
+}
+nav a:hover{
+	color: white;
+	background:rgba(255,255,255,0.05);
+}
+
+#equiv {
+	display: none;
+}
+nav label[for=equiv]{
+	width:200px;
+	display:block;
+	padding-left: 20px;
+}
+
+#equiv ~ #menu{
+	position: absolute;
+	
+	background-color: 
+	width:280px;
+
+	overflow:none;
+	height: 0px;
+	left: -250px;
+	transition: 1s all;
+
+}
+
+#equiv:checked ~ #menu{
+	height: 550px;
+	left:0px;
+	overflow-y:auto;
+}
+nav label{
+	
+	width:180px;
+}
+nav summary{
+	width: 210px;
+	padding-left: 10px;
+}
+nav label:hover {
+	background: background-color: rgba(100,000,000,1);
+}
+canvas{
+
+}
+
