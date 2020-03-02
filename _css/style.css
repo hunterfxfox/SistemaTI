@@ -81,7 +81,11 @@ nav summary{
 nav label:hover {
 	background: background-color: rgba(100,000,000,1);
 }
-canvas{
-
+.tudo{
+	position: absolute;
+	z-index: 1;
+	top:38px;
+	width: 99.90%;
+	border: 1px solid black;
+	height: 540px;
 }
-
